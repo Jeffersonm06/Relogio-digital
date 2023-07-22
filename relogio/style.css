@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.creditos {
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url('img/plano5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.relogio {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.bloco {
+    width: 180px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(82, 47, 164);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+span {
+    color: aliceblue;
+}
+
+.num {
+    font-size: 120px;
+}
+
+@media(max-width:640px) {
+
+    .relogio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .bloco {
+        width: 130px;
+        height: 170px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: rgb(82, 47, 164);
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+
+    span {
+        color: aliceblue;
+    }
+
+    .num {
+        font-size: 70px;
+    }
+
+    .creditos {
+        margin-top: 0;
+        color: aliceblue;
+    }
+}
