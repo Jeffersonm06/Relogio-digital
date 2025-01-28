@@ -1,4 +1,4 @@
 # Relogio-digital
 
 Relogio digital feito com javascripot, html e css
-![](img/demo.mp4)
+![Watch the video](img/demo.mp4)
